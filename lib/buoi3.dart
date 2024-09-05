@@ -18,19 +18,20 @@
 //   return "90";
 // }
 
-void ditoicaicua(
-  Function reTrai,
-  Function(String a) rePhai,
-) {
-  reTrai();
+// void ditoicaicua(
+//   Function reTrai,
+//   Function(String a) rePhai,
+// ) {
+//   reTrai();
+//
+//   rePhai('10000');
+// }
+//
+// void main() {
+//   ditoicaicua(
+//     () {
+//       print('re trai thanh cong');
+//     },
+//   );
+// }
 
-  rePhai('10000');
-}
-
-void main() {
-  ditoicaicua(
-    () {
-      print('re trai thanh cong');
-    },
-  );
-}
